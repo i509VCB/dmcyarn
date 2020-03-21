@@ -3,6 +3,12 @@ CLASS net/minecraft/class_2753 net/minecraft/state/property/DirectionProperty
 		ARG 1 name
 		ARG 2 values
 	METHOD method_11843 of (Ljava/lang/String;Ljava/util/Collection;)Lnet/minecraft/class_2753;
+		COMMENT Creates a direction property which only supports specific values
+		COMMENT 
+		COMMENT @param name the name of this property
+		COMMENT @param values the collection of values this property can have
+		COMMENT               
+		COMMENT @returns a new direction property.
 		ARG 0 name
 		ARG 1 values
 	METHOD method_11844 of (Ljava/lang/String;Ljava/util/function/Predicate;)Lnet/minecraft/class_2753;
