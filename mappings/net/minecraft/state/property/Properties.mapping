@@ -1,5 +1,6 @@
 CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12480 FALLING Lnet/minecraft/class_2746;
+		COMMENT A property which specifies if a fluid is falling.
 	FIELD field_12481 HORIZONTAL_FACING Lnet/minecraft/class_2753;
 	FIELD field_12482 AGE_5 Lnet/minecraft/class_2758;
 	FIELD field_12483 BED_PART Lnet/minecraft/class_2754;
