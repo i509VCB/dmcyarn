@@ -72,6 +72,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12542 STRAIGHT_RAIL_SHAPE Lnet/minecraft/class_2754;
 	FIELD field_12543 PICKLES Lnet/minecraft/class_2758;
 	FIELD field_12544 HAS_RECORD Lnet/minecraft/class_2746;
+		COMMENT A property that specifies if a jukebox has a record.
 	FIELD field_12545 HOPPER_FACING Lnet/minecraft/class_2753;
 	FIELD field_12546 DOWN Lnet/minecraft/class_2746;
 	FIELD field_12547 STRUCTURE_BLOCK_MODE Lnet/minecraft/class_2754;
