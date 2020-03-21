@@ -71,7 +71,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 		COMMENT A property that specifies if this block is connected to another block from the top.
 	FIELD field_12520 DOOR_HINGE Lnet/minecraft/class_2754;
 	FIELD field_12521 AGE_1 Lnet/minecraft/class_2758;
-		COMMENT A property that specifies the age of a block on a scale of 0 to 1
+		COMMENT A property that specifies the age of a block on a scale of 0 to 1.
 	FIELD field_12522 TRIGGERED Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a dispenser is activated.
 	FIELD field_12523 EAST_WIRE_CONNECTION Lnet/minecraft/class_2754;
