@@ -104,6 +104,9 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12531 HAS_BOTTLE_2 Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a brewing stand has a bottle in slot 2.
 	FIELD field_12532 ROTATION Lnet/minecraft/class_2758;
+		COMMENT A property that specifies the rotation of a block on a 0 to 15 scale.
+		COMMENT 
+		COMMENT <p>Each rotation is 22.5 degrees.
 	FIELD field_12533 DOUBLE_BLOCK_HALF Lnet/minecraft/class_2754;
 		COMMENT A property that specifies whether a double height block is the upper or lower half..
 	FIELD field_12534 COMPARATOR_MODE Lnet/minecraft/class_2754;
