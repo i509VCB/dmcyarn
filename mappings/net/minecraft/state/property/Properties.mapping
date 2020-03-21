@@ -68,6 +68,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12522 TRIGGERED Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a dispenser is activated.
 	FIELD field_12523 EAST_WIRE_CONNECTION Lnet/minecraft/class_2754;
+		COMMENT A property which specifies how redstone wire attaches to the east.‌
 	FIELD field_12524 NOTE Lnet/minecraft/class_2758;
 	FIELD field_12525 FACING Lnet/minecraft/class_2753;
 		COMMENT A property that specifies the direction a block is facing.
