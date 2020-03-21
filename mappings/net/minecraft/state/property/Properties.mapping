@@ -7,7 +7,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12484 POWERED Lnet/minecraft/class_2746;
 	FIELD field_12485 SLAB_TYPE Lnet/minecraft/class_2754;
 	FIELD field_12486 CONDITIONAL Lnet/minecraft/class_2746;
-		COMMENT A property which specifies whether a command block is conditional.
+		COMMENT A property that specifies if a command block is conditional.
 	FIELD field_12487 EAST Lnet/minecraft/class_2746;
 	FIELD field_12488 EYE Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if an end portal frame contains an eye of ender.
