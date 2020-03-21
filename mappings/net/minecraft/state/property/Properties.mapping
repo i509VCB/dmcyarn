@@ -86,6 +86,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12556 AGE_2 Lnet/minecraft/class_2758;
 	FIELD field_16503 DISTANCE_0_7 Lnet/minecraft/class_2758;
 	FIELD field_16561 HANGING Lnet/minecraft/class_2746;
+		COMMENT A property which specifies if a lantern is hanging.
 	FIELD field_16562 BOTTOM Lnet/minecraft/class_2746;
 		COMMENT A property which specifies if a scaffolding block is bottom of a floating segment.
 	FIELD field_17104 ATTACHMENT Lnet/minecraft/class_2754;
