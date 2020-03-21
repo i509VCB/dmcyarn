@@ -10,7 +10,7 @@ CLASS net/minecraft/class_2754 net/minecraft/state/property/EnumProperty
 		COMMENT 
 		COMMENT @param name the name of this property
 		COMMENT @param type the type of enum this property contains
-		COMMENT @param values all
+		COMMENT @param values the values this property can be
 		COMMENT 
 		COMMENT @returns a new enum property.
 		ARG 0 name
