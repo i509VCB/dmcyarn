@@ -57,6 +57,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12517 AGE_25 Lnet/minecraft/class_2758;
 	FIELD field_12518 BLOCK_HALF Lnet/minecraft/class_2754;
 	FIELD field_12519 UP Lnet/minecraft/class_2746;
+		COMMENT A property that specifies if this block is connected to another block from the top.
 	FIELD field_12520 DOOR_HINGE Lnet/minecraft/class_2754;
 	FIELD field_12521 AGE_1 Lnet/minecraft/class_2758;
 	FIELD field_12522 TRIGGERED Lnet/minecraft/class_2746;
