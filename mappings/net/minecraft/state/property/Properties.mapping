@@ -83,6 +83,9 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 		COMMENT <p>This property is normally used for doors, trapdoors and fence gates but is also used by barrels.
 	FIELD field_12538 LEVEL_15 Lnet/minecraft/class_2758;
 	FIELD field_12539 UNSTABLE Lnet/minecraft/class_2746;
+		COMMENT  A property that specifies if TNT is unstable.
+		COMMENT 
+		COMMENT  <p>In vanilla, if TNT is unstable, it will ignite when broken.
 	FIELD field_12540 SOUTH Lnet/minecraft/class_2746;
 	FIELD field_12541 DISTANCE_1_7 Lnet/minecraft/class_2758;
 	FIELD field_12542 STRAIGHT_RAIL_SHAPE Lnet/minecraft/class_2754;
