@@ -133,6 +133,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_16562 BOTTOM Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a scaffolding block is bottom of a floating segment.
 	FIELD field_17104 ATTACHMENT Lnet/minecraft/class_2754;
+		COMMENT A property that specifies how a bell is attached to a block.
 	FIELD field_17393 HAS_BOOK Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a lectern has a book.
 	FIELD field_17394 SIGNAL_FIRE Lnet/minecraft/class_2746;
