@@ -39,6 +39,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12506 CHEST_TYPE Lnet/minecraft/class_2754;
 	FIELD field_12507 RAIL_SHAPE Lnet/minecraft/class_2754;
 	FIELD field_12508 WATERLOGGED Lnet/minecraft/class_2746;
+		COMMENT  A property that specifies if a block is waterlogged.
 	FIELD field_12509 EGGS Lnet/minecraft/class_2758;
 	FIELD field_12510 MOISTURE Lnet/minecraft/class_2758;
 	FIELD field_12511 POWER Lnet/minecraft/class_2758;
