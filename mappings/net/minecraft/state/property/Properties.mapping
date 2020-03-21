@@ -128,6 +128,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 		COMMENT 
 		COMMENT <p>This property does not allow for a rail to turn.
 	FIELD field_12543 PICKLES Lnet/minecraft/class_2758;
+		COMMENT A property that specifies how many pickles are in a sea pickle.
 	FIELD field_12544 HAS_RECORD Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a jukebox has a record.
 	FIELD field_12545 HOPPER_FACING Lnet/minecraft/class_2753;
