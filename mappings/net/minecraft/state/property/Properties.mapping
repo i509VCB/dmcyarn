@@ -81,6 +81,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12546 DOWN Lnet/minecraft/class_2746;
 	FIELD field_12547 STRUCTURE_BLOCK_MODE Lnet/minecraft/class_2754;
 	FIELD field_12548 LIT Lnet/minecraft/class_2746;
+		COMMENT A property that specifies if a block is lit.
 	FIELD field_12549 STAGE Lnet/minecraft/class_2758;
 	FIELD field_12550 AGE_7 Lnet/minecraft/class_2758;
 	FIELD field_12551 SOUTH_WIRE_CONNECTION Lnet/minecraft/class_2754;
