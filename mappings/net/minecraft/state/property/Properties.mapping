@@ -48,6 +48,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12524 NOTE Lnet/minecraft/class_2758;
 	FIELD field_12525 FACING Lnet/minecraft/class_2753;
 	FIELD field_12526 DRAG Lnet/minecraft/class_2746;
+		COMMENT A property which specifies if a bubble column should drag entities downwards.
 	FIELD field_12527 WEST Lnet/minecraft/class_2746;
 	FIELD field_12528 OCCUPIED Lnet/minecraft/class_2746;
 	FIELD field_12529 HORIZONTAL_AXIS Lnet/minecraft/class_2754;
