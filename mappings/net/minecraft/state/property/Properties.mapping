@@ -71,6 +71,9 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12535 SHORT Lnet/minecraft/class_2746;
 	FIELD field_12536 LAYERS Lnet/minecraft/class_2758;
 	FIELD field_12537 OPEN Lnet/minecraft/class_2746;
+		COMMENT A property that specifies if a block is open.
+		COMMENT 
+		COMMENT <p>This property is normally used for doors, trapdoors and fence gates but is also used by barrels.
 	FIELD field_12538 LEVEL_15 Lnet/minecraft/class_2758;
 	FIELD field_12539 UNSTABLE Lnet/minecraft/class_2746;
 	FIELD field_12540 SOUTH Lnet/minecraft/class_2746;
