@@ -38,4 +38,4 @@ CLASS net/minecraft/class_2754 net/minecraft/state/property/EnumProperty
 		ARG 0 name
 			COMMENT the name of this property
 		ARG 1 type
-			COMMENT the type of this property
+			COMMENT the type this property contains
