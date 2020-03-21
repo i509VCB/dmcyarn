@@ -10,6 +10,7 @@ CLASS net/minecraft/class_2753 net/minecraft/state/property/DirectionProperty
 		COMMENT               
 		COMMENT @returns a new direction property.
 		ARG 0 name
+			COMMENT the name of this property
 		ARG 1 values
 	METHOD method_11844 of (Ljava/lang/String;Ljava/util/function/Predicate;)Lnet/minecraft/class_2753;
 		COMMENT Creates a direction property.
