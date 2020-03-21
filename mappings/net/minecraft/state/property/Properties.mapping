@@ -40,6 +40,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12498 AGE_15 Lnet/minecraft/class_2758;
 		COMMENT A property that specifies the age of a block on a scale of 0 to 15.
 	FIELD field_12499 INSTRUMENT Lnet/minecraft/class_2754;
+		COMMENT A property that specifies what instrument a note block will play.
 	FIELD field_12500 HAS_BOTTLE_1 Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a brewing stand has a bottle in slot 1.
 	FIELD field_12501 INVERTED Lnet/minecraft/class_2746;
