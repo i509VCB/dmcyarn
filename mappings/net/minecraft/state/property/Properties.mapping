@@ -66,6 +66,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 		COMMENT A property that specifies whether a hopper is enabled.
 	FIELD field_12516 BAMBOO_LEAVES Lnet/minecraft/class_2754;
 	FIELD field_12517 AGE_25 Lnet/minecraft/class_2758;
+		COMMENT A property that specifies the age of a block on a scale of 0 to 25.
 	FIELD field_12518 BLOCK_HALF Lnet/minecraft/class_2754;
 		COMMENT A property that specifies which if a block is the upper or lower half.
 	FIELD field_12519 UP Lnet/minecraft/class_2746;
