@@ -168,6 +168,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_17586 LEVEL_8 Lnet/minecraft/class_2758;
 		COMMENT A property that specifies how the level of a composter.
 	FIELD field_20432 HONEY_LEVEL Lnet/minecraft/class_2758;
+		COMMENT A property that specifies the honey level of a beehive.
 	FIELD field_22174 EAST_WALL_SHAPE Lnet/minecraft/class_2754;
 		COMMENT A property which specifies how a wall extends from the center post to the east.‌
 	FIELD field_22175 NORTH_WALL_SHAPE Lnet/minecraft/class_2754;
