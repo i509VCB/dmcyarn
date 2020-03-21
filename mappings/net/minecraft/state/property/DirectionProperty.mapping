@@ -6,7 +6,7 @@ CLASS net/minecraft/class_2753 net/minecraft/state/property/DirectionProperty
 		COMMENT Creates a direction property which only supports specific values
 		COMMENT 
 		COMMENT @param name the name of this property
-		COMMENT @param values the collection of values this property can have
+		COMMENT @param values the values this property can have
 		COMMENT               
 		COMMENT @returns a new direction property.
 		ARG 0 name
