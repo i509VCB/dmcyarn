@@ -109,6 +109,9 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 		COMMENT A property that specifies if this block is connected to another block from the south.
 	FIELD field_12541 DISTANCE_1_7 Lnet/minecraft/class_2758;
 	FIELD field_12542 STRAIGHT_RAIL_SHAPE Lnet/minecraft/class_2754;
+		COMMENT A property that specifies the two directions a rail connects to.
+		COMMENT 
+		COMMENT <p>This property does not allow for a rail to turn.
 	FIELD field_12543 PICKLES Lnet/minecraft/class_2758;
 	FIELD field_12544 HAS_RECORD Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a jukebox has a record.
