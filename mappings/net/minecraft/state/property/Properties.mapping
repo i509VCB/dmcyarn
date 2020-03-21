@@ -69,6 +69,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12528 OCCUPIED Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a bed is occupied.
 	FIELD field_12529 HORIZONTAL_AXIS Lnet/minecraft/class_2754;
+		COMMENT  A property that specifies if a block faces to the X or Z axis.
 	FIELD field_12530 HATCH Lnet/minecraft/class_2758;
 	FIELD field_12531 HAS_BOTTLE_2 Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a brewing stand has a bottle in slot 2.
