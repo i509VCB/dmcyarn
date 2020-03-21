@@ -21,6 +21,7 @@ CLASS net/minecraft/class_2753 net/minecraft/state/property/DirectionProperty
 		ARG 0 name
 			COMMENT the name of this property
 		ARG 1 filter
+			COMMENT a filter which specifies if a value is allowed
 	METHOD method_11845 of (Ljava/lang/String;[Lnet/minecraft/class_2350;)Lnet/minecraft/class_2753;
 		COMMENT Creates a direction property which only supports specific values
 		COMMENT 
