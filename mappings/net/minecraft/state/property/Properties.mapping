@@ -20,6 +20,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12489 NORTH Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if this block is connected to another block from the north.
 	FIELD field_12490 LEVEL_1_8 Lnet/minecraft/class_2758;
+		COMMENT A property that specifies the height of a fluid on a scale of 1 to 8.
 	FIELD field_12491 IN_WALL Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a fence gate is attached to a wall.
 		COMMENT 
