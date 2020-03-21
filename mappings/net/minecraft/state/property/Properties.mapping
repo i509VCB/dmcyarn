@@ -95,7 +95,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 		COMMENT 
 		COMMENT  <p>In vanilla, if TNT is unstable, it will ignite when broken.
 	FIELD field_12540 SOUTH Lnet/minecraft/class_2746;
-		COMMENT A property that specifies if this block is connected to another block from the west.
+		COMMENT A property that specifies if this block is connected to another block from the south.
 	FIELD field_12541 DISTANCE_1_7 Lnet/minecraft/class_2758;
 	FIELD field_12542 STRAIGHT_RAIL_SHAPE Lnet/minecraft/class_2754;
 	FIELD field_12543 PICKLES Lnet/minecraft/class_2758;
