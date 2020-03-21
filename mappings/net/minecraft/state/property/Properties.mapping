@@ -104,6 +104,9 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12544 HAS_RECORD Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a jukebox has a record.
 	FIELD field_12545 HOPPER_FACING Lnet/minecraft/class_2753;
+		COMMENT A property that specifies the direction a hopper's output faces.
+		COMMENT 
+		COMMENT <p>This property does not allow the hopper's output to face upwards.
 	FIELD field_12546 DOWN Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if this block is connected to another block from the below.
 	FIELD field_12547 STRUCTURE_BLOCK_MODE Lnet/minecraft/class_2754;
