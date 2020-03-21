@@ -24,6 +24,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12494 DELAY Lnet/minecraft/class_2758;
 	FIELD field_12495 NORTH_WIRE_CONNECTION Lnet/minecraft/class_2754;
 	FIELD field_12496 AXIS Lnet/minecraft/class_2754;
+		COMMENT A property that specifies the axis a block faces to.
 	FIELD field_12497 AGE_3 Lnet/minecraft/class_2758;
 	FIELD field_12498 AGE_15 Lnet/minecraft/class_2758;
 	FIELD field_12499 INSTRUMENT Lnet/minecraft/class_2754;
