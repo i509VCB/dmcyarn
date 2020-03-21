@@ -95,6 +95,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 		COMMENT  
 		COMMENT <p>This property only allows a block to be oriented to the X and Z axes.
 	FIELD field_12530 HATCH Lnet/minecraft/class_2758;
+		COMMENT A property that specifies how close an egg is hatching.
 	FIELD field_12531 HAS_BOTTLE_2 Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a brewing stand has a bottle in slot 2.
 	FIELD field_12532 ROTATION Lnet/minecraft/class_2758;
