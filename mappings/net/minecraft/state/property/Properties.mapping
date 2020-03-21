@@ -8,6 +8,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12482 AGE_5 Lnet/minecraft/class_2758;
 		COMMENT A property that specifies the age of a block on a scale of 0 to 5.
 	FIELD field_12483 BED_PART Lnet/minecraft/class_2754;
+		COMMENT A property that specifies what part of a bed a block is.
 	FIELD field_12484 POWERED Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a block is being powered to produce or emit redstone signal.
 	FIELD field_12485 SLAB_TYPE Lnet/minecraft/class_2754;
