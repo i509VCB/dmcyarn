@@ -9,6 +9,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 		COMMENT A property which specifies whether a command block is conditional.
 	FIELD field_12487 EAST Lnet/minecraft/class_2746;
 	FIELD field_12488 EYE Lnet/minecraft/class_2746;
+		COMMENT A property which specifies if an end portal frame contains an eye of ender.
 	FIELD field_12489 NORTH Lnet/minecraft/class_2746;
 	FIELD field_12490 LEVEL_1_8 Lnet/minecraft/class_2758;
 	FIELD field_12491 IN_WALL Lnet/minecraft/class_2746;
