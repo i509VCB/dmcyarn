@@ -115,7 +115,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12540 SOUTH Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if this block is connected to another block from the south.
 	FIELD field_12541 DISTANCE_1_7 Lnet/minecraft/class_2758;
-		COMMENT A property that specifies the overhang distance a block is from the center.
+		COMMENT A property that specifies the overhang distance of a block on a scale of 1-7.
 	FIELD field_12542 STRAIGHT_RAIL_SHAPE Lnet/minecraft/class_2754;
 		COMMENT A property that specifies the two directions a rail connects to.
 		COMMENT 
