@@ -145,7 +145,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_22174 EAST_WALL_SHAPE Lnet/minecraft/class_2754;
 		COMMENT A property which specifies how a wall extends from the center post to the east.‌
 	FIELD field_22175 NORTH_WALL_SHAPE Lnet/minecraft/class_2754;
-		COMMENT A property which specifies how a wall extends from the center post to the east.‌
+		COMMENT A property which specifies how a wall extends from the center post to the north.‌
 	FIELD field_22176 SOUTH_WALL_SHAPE Lnet/minecraft/class_2754;
 		COMMENT A property which specifies how a wall extends from the center post to the south.‌
 	FIELD field_22177 WEST_WALL_SHAPE Lnet/minecraft/class_2754;
