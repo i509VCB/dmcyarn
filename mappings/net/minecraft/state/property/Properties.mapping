@@ -105,6 +105,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12535 SHORT Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a piston head is shorter than normal.
 	FIELD field_12536 LAYERS Lnet/minecraft/class_2758;
+		COMMENT A property that specifies how many layers of snow are in a snow block.
 	FIELD field_12537 OPEN Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a block is open.
 		COMMENT 
