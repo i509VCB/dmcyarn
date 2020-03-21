@@ -52,6 +52,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_12505 BITES Lnet/minecraft/class_2758;
 		COMMENT A property that specifies the bites taken out of a cake.
 	FIELD field_12506 CHEST_TYPE Lnet/minecraft/class_2754;
+		COMMENT A property that specifies what type of chest a block is.
 	FIELD field_12507 RAIL_SHAPE Lnet/minecraft/class_2754;
 		COMMENT A property that specifies the two directions a rail connects to.
 	FIELD field_12508 WATERLOGGED Lnet/minecraft/class_2746;
