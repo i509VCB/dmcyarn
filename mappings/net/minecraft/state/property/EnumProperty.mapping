@@ -6,7 +6,7 @@ CLASS net/minecraft/class_2754 net/minecraft/state/property/EnumProperty
 		ARG 2 type
 		ARG 3 values
 	METHOD method_11847 of (Ljava/lang/String;Ljava/lang/Class;Ljava/util/Collection;)Lnet/minecraft/class_2754;
-		COMMENT Creates a enum property.
+		COMMENT Creates an enum property.
 		ARG 0 name
 			COMMENT the name of this property
 		ARG 1 type
