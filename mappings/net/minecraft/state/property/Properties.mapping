@@ -28,6 +28,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 		COMMENT A property that specifies if a tripwire is attached to tripwire hook.
 	FIELD field_12494 DELAY Lnet/minecraft/class_2758;
 	FIELD field_12495 NORTH_WIRE_CONNECTION Lnet/minecraft/class_2754;
+		COMMENT A property which specifies how redstone wire attaches to the north.‌
 	FIELD field_12496 AXIS Lnet/minecraft/class_2754;
 		COMMENT A property that specifies the axis a block is oriented to.
 	FIELD field_12497 AGE_3 Lnet/minecraft/class_2758;
