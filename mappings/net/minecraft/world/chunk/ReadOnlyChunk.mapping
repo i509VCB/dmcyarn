@@ -1,4 +1,7 @@
 CLASS net/minecraft/class_2821 net/minecraft/world/chunk/ReadOnlyChunk
+	COMMENT Wraps a WorldChunk as read only.
+	COMMENT
+	COMMENT <p>This is typically used for world generation when a chunk region encompasses already existing live chunks.
 	FIELD field_12866 wrapped Lnet/minecraft/class_2818;
 	METHOD <init> (Lnet/minecraft/class_2818;)V
 		ARG 1 wrapped

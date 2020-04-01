@@ -57,3 +57,6 @@ CLASS net/minecraft/class_2791 net/minecraft/world/chunk/Chunk
 	METHOD method_12043 setLastSaveTime (J)V
 		ARG 1 lastSaveTime
 	METHOD method_12044 needsSaving ()Z
+	METHOD method_12228 areSectionsEmpty (II)Z
+		ARG 1 bottom
+		ARG 2 top
