@@ -3,6 +3,7 @@ CLASS net/minecraft/class_1150 net/minecraft/world/World
 	FIELD field_4536 blockEntities Ljava/util/List;
 	FIELD field_4541 entities Ljava/util/List;
 	FIELD field_4544 players Ljava/util/List;
+	FIELD field_4557 random Ljava/util/Random;
 	METHOD <init> (Lnet/minecraft/class_101;Ljava/lang/String;Lnet/minecraft/class_1156;Lnet/minecraft/class_1208;Lnet/minecraft/class_839;)V
 		ARG 5 profiler
 	METHOD <init> (Lnet/minecraft/class_101;Ljava/lang/String;Lnet/minecraft/class_1208;Lnet/minecraft/class_1156;Lnet/minecraft/class_839;)V

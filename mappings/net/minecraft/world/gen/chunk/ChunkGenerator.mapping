@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1208 net/minecraft/world/gen/chunk/ChunkGenerator
+	FIELD field_4785 world Lnet/minecraft/class_1150;
+	METHOD method_3978 createChunkGenerator (I)Lnet/minecraft/class_1208;
+		ARG 0 id
+	METHOD method_3995 getName ()Ljava/lang/String;
