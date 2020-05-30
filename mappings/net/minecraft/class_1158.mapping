@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_1158
+	METHOD method_3771 getHeight ()I
+	METHOD method_3781 getBlockEntity (III)Lnet/minecraft/class_226;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

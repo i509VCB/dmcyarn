@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_1151 net/minecraft/util/crash/section/EntitySection
+	FIELD field_4562 world Lnet/minecraft/class_1150;
+	METHOD <init> (Lnet/minecraft/class_1150;)V
+		ARG 1 world
