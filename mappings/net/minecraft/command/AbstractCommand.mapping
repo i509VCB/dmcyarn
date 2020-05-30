@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_955 net/minecraft/command/AbstractCommand
+	METHOD method_3274 getAliases ()Ljava/util/List;
+		COMMENT Gets the aliases of this command.
+		COMMENT
+		COMMENT If the list is null, the command has no aliases.
