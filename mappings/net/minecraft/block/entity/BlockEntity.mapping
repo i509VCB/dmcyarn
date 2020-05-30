@@ -2,11 +2,24 @@ CLASS net/minecraft/class_226 net/minecraft/block/entity/BlockEntity
 	FIELD field_563 BLOCK_ENTITY_ID_TO_CLASS Ljava/util/Map;
 	FIELD field_564 BLOCK_ENTITY_CLASS_TO_ID Ljava/util/Map;
 	FIELD field_565 world Lnet/minecraft/class_1150;
+	FIELD field_566 x I
+	FIELD field_567 y I
+	FIELD field_568 z I
+	FIELD field_569 removed Z
+	METHOD method_537 fromTag (Lnet/minecraft/class_322;)V
+		ARG 1 tag
 	METHOD method_538 registerBlockEntity (Ljava/lang/Class;Ljava/lang/String;)V
 		ARG 0 blockEntityClass
 		ARG 1 blockEntityId
 	METHOD method_539 setWorld (Lnet/minecraft/class_1150;)V
 		ARG 1 world
+	METHOD method_541 toTag (Lnet/minecraft/class_322;)V
+		ARG 1 tag
+	METHOD method_542 createFromTag (Lnet/minecraft/class_322;)Lnet/minecraft/class_226;
+		ARG 0 tag
 	METHOD method_545 tick ()V
+	METHOD method_547 markRemoved ()V
 	METHOD method_548 getWorld ()Lnet/minecraft/class_1150;
 	METHOD method_549 hasWorld ()Z
+	METHOD method_552 isRemoved ()Z
+	METHOD method_553 cancelRemoval ()V
