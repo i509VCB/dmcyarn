@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_789 net/minecraft/server/world/SecondaryServerWorld
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/class_101;Ljava/lang/String;ILnet/minecraft/class_1156;Lnet/minecraft/class_795;Lnet/minecraft/class_839;)V
+		ARG 1 server
+		ARG 7 profiler

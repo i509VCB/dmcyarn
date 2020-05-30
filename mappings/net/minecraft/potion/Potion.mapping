@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_860 net/minecraft/potion/Potion
+	FIELD field_3164 POTIONS [Lnet/minecraft/class_860;
+	METHOD <init> (IZI)V
+		ARG 1 id
