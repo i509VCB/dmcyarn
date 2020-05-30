@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_803
+	FIELD field_2893 LOGGER Ljava/util/logging/Logger;
+	FIELD field_2896 server Lnet/minecraft/server/MinecraftServer;
+	FIELD field_2903 RANDOM Ljava/util/Random;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/class_630;Lnet/minecraft/class_798;)V
+		ARG 1 server
+		ARG 3 player

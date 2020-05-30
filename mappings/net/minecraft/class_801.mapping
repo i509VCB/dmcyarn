@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_801
+	FIELD field_2886 server Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/net/Socket;Ljava/lang/String;)V
+		ARG 1 server

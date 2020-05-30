@@ -2,3 +2,8 @@ CLASS net/minecraft/class_700 net/minecraft/network/Packet
 	METHOD method_1827 registerPacket (IZZLjava/lang/Class;)V
 		ARG 0 id
 		ARG 3 packetClass
+	METHOD method_1831 apply (Lnet/minecraft/class_701;)V
+	METHOD method_1832 read (Ljava/io/DataInputStream;)V
+		ARG 1 input
+	METHOD method_1835 write (Ljava/io/DataOutputStream;)V
+		ARG 1 output

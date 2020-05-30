@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_701 net/minecraft/network/listener/PacketListener
+	METHOD method_1871 onCustomPayload (Lnet/minecraft/class_663;)V
+		ARG 1 packet
