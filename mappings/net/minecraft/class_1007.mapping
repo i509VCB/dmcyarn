@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_1007
-	METHOD method_3274 getAliases ()Ljava/util/List;
-	METHOD method_3277 getCommandName ()Ljava/lang/String;

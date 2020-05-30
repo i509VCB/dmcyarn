@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_1061 net/minecraft/command/CommandSource
+	METHOD method_3331 sendFeedback (Ljava/lang/String;)V

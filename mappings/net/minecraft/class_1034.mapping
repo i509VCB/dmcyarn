@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_1034
+	METHOD method_3310 execute (Lnet/minecraft/class_1061;Ljava/lang/String;)V
+		ARG 1 commandSource
+		ARG 2 input

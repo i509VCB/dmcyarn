@@ -1,4 +1,18 @@
 CLASS net/minecraft/class_955 net/minecraft/command/AbstractCommand
+	METHOD method_2887 parseInt (Lnet/minecraft/class_1061;Ljava/lang/String;)I
+		ARG 0 commandSource
+		ARG 1 input
+	METHOD method_2888 parseInt (Lnet/minecraft/class_1061;Ljava/lang/String;I)I
+		ARG 0 commandSource
+		ARG 1 input
+		ARG 2 lowerBound
+	METHOD method_2889 parseInt (Lnet/minecraft/class_1061;Ljava/lang/String;II)I
+		ARG 0 commandSource
+		ARG 1 input
+		ARG 2 lowerBound
+		ARG 3 upperBound
+	METHOD method_2895 getPlayer (Lnet/minecraft/class_1061;)Lnet/minecraft/class_988;
+		ARG 0 commandSource
 	METHOD method_3274 getAliases ()Ljava/util/List;
 		COMMENT Gets the aliases of this command.
 		COMMENT

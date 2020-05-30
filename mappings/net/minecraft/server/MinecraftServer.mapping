@@ -50,6 +50,8 @@ CLASS net/minecraft/server/MinecraftServer
 		ARG 3 seed
 	METHOD method_2996 setKeyPair (Ljava/security/KeyPair;)V
 		ARG 1 keyPair
+	METHOD method_3000 (Lnet/minecraft/class_1157;Z)Ljava/lang/String;
+		ARG 1 gameMode
 	METHOD method_3001 save (Z)V
 	METHOD method_3004 getPlayerManager ()Lnet/minecraft/class_743;
 	METHOD method_3007 shouldUseServerGui ()Z
