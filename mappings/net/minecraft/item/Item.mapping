@@ -158,7 +158,10 @@ CLASS net/minecraft/class_1069 net/minecraft/item/Item
 		ARG 2 world
 	METHOD method_3365 name (Ljava/lang/String;)Lnet/minecraft/class_1069;
 		ARG 1 name
+	METHOD method_3371 getName (Lnet/minecraft/class_1071;)Ljava/lang/String;
+		ARG 1 stack
 	METHOD method_3373 maxCount (I)Lnet/minecraft/class_1069;
 		ARG 1 maxCount
 	METHOD method_3377 getRarity (Lnet/minecraft/class_1071;)Lnet/minecraft/class_1081;
 		ARG 1 stack
+	METHOD method_3382 getMaxCount ()I
