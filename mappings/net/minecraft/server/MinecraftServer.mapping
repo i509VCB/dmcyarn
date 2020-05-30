@@ -11,6 +11,9 @@ CLASS net/minecraft/server/MinecraftServer
 	METHOD method_2970 getInstance ()Lnet/minecraft/server/MinecraftServer;
 	METHOD method_2978 isDemo ()Z
 	METHOD method_2983 isDedicated ()Z
+	METHOD method_2993 setPlayerManager (Lnet/minecraft/class_743;)V
+		ARG 1 manager
+	METHOD method_3004 getPlayerManager ()Lnet/minecraft/class_743;
 	METHOD method_3010 getSnooper ()Lnet/minecraft/class_853;
 	METHOD method_3014 setDemo (Z)V
 		ARG 1 demo

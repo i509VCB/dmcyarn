@@ -16,6 +16,8 @@ CLASS net/minecraft/class_867 net/minecraft/entity/EntityRegistry
 		ARG 2 id
 	METHOD method_2570 registerMob (Ljava/lang/Class;Ljava/lang/String;III)V
 		ARG 0 mobClass
+		ARG 1 name
+		ARG 2 id
 	METHOD method_2571 createEntity (Ljava/lang/String;Lnet/minecraft/class_1150;)Lnet/minecraft/class_864;
 		ARG 0 name
 		ARG 1 world

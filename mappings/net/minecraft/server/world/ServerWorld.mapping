@@ -1,3 +1,6 @@
 CLASS net/minecraft/class_795 net/minecraft/server/world/ServerWorld
+	FIELD field_2819 server Lnet/minecraft/server/MinecraftServer;
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/class_101;Ljava/lang/String;ILnet/minecraft/class_1156;Lnet/minecraft/class_839;)V
+		ARG 1 server
 		ARG 6 profiler
+	METHOD method_2146 getServer ()Lnet/minecraft/server/MinecraftServer;
