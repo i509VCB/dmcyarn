@@ -1,0 +1,7 @@
+CLASS net/minecraft/class_864 net/minecraft/entity/Entity
+	FIELD field_3248 world Lnet/minecraft/class_1150;
+	METHOD <init> (Lnet/minecraft/class_1150;)V
+		ARG 1 world
+	METHOD method_2504 setWorld (Lnet/minecraft/class_1150;)V
+		ARG 1 world
+	METHOD method_2564 baseTick ()V

@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_798 net/minecraft/server/network/ServerPlayerEntity
+	FIELD field_2824 server Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/class_1150;Ljava/lang/String;Lnet/minecraft/class_799;)V
+		ARG 1 server
+		ARG 2 world
+	METHOD method_2162 getServerWorld ()Lnet/minecraft/class_795;
