@@ -1,0 +1,16 @@
+CLASS net/minecraft/class_853 net/minecraft/util/snooper/Snooper
+	FIELD field_3119 initialInfo Ljava/util/Map;
+	FIELD field_3120 token Ljava/lang/String;
+	FIELD field_3121 snooperUrl Ljava/net/URL;
+	FIELD field_3122 listener Lnet/minecraft/class_855;
+	FIELD field_3123 timer Ljava/util/Timer;
+	FIELD field_3124 syncObject Ljava/lang/Object;
+	FIELD field_3125 active Z
+	METHOD <init> (Ljava/lang/String;Lnet/minecraft/class_855;)V
+		ARG 1 urlPath
+	METHOD method_2396 addInitialInfo (Ljava/lang/String;Ljava/lang/Object;)V
+		ARG 1 key
+	METHOD method_2398 update ()V
+	METHOD method_2402 isActive ()Z
+	METHOD method_2404 cancel ()V
+	METHOD method_2406 getToken ()Ljava/lang/String;
