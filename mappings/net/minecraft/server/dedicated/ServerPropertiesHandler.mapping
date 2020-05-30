@@ -1,0 +1,20 @@
+CLASS net/minecraft/class_745 net/minecraft/server/dedicated/ServerPropertiesHandler
+	FIELD field_2722 LOGGER Ljava/util/logging/Logger;
+	FIELD field_2723 properties Ljava/util/Properties;
+	FIELD field_2724 file Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 file
+	METHOD method_2046 generatePropertiesFile ()V
+	METHOD method_2047 getInt (Ljava/lang/String;I)I
+		ARG 1 key
+		ARG 2 defaultValue
+	METHOD method_2048 setProperty (Ljava/lang/String;Ljava/lang/Object;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_2049 getSetring (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 key
+		ARG 2 defaultValue
+	METHOD method_2050 parseBoolean (Ljava/lang/String;Z)Z
+		ARG 1 key
+		ARG 2 defaultValue
+	METHOD method_2052 getFile ()Ljava/io/File;

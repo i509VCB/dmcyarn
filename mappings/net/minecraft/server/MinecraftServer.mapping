@@ -31,6 +31,7 @@ CLASS net/minecraft/server/MinecraftServer
 	METHOD method_2970 getInstance ()Lnet/minecraft/server/MinecraftServer;
 	METHOD method_2972 getKeyPair ()Ljava/security/KeyPair;
 	METHOD method_2973 getServerPort ()I
+	METHOD method_2977 isMonsterSpawningEnabled ()Z
 	METHOD method_2978 isDemo ()Z
 	METHOD method_2983 isDedicated ()Z
 	METHOD method_2984 isOnlineMode ()Z
@@ -43,17 +44,26 @@ CLASS net/minecraft/server/MinecraftServer
 		ARG 1 id
 	METHOD method_2993 setPlayerManager (Lnet/minecraft/class_743;)V
 		ARG 1 manager
+	METHOD method_2995 loadWorld (Ljava/lang/String;Ljava/lang/String;JLnet/minecraft/class_1160;)V
+		ARG 1 name
+		ARG 2 serverName
+		ARG 3 seed
 	METHOD method_2996 setKeyPair (Ljava/security/KeyPair;)V
 		ARG 1 keyPair
+	METHOD method_3001 save (Z)V
 	METHOD method_3004 getPlayerManager ()Lnet/minecraft/class_743;
+	METHOD method_3007 shouldUseServerGui ()Z
 	METHOD method_3010 getSnooper ()Lnet/minecraft/class_853;
 	METHOD method_3011 setupServer ()Z
 	METHOD method_3012 setServerPort (I)V
 		ARG 1 serverPort
 	METHOD method_3014 setDemo (Z)V
 		ARG 1 demo
+	METHOD method_3017 upgradeWorld (Ljava/lang/String;)V
 	METHOD method_3018 setBonusChest (Z)V
 		ARG 1 bonusChest
+	METHOD method_3019 prepareStartRegion ()V
+	METHOD method_3021 setLoadingStage (Ljava/lang/String;)V
 	METHOD method_3022 setOnlineMode (Z)V
 		ARG 1 onlineMode
 	METHOD method_3023 shouldGenerateStructures ()Z
@@ -69,9 +79,11 @@ CLASS net/minecraft/server/MinecraftServer
 		ARG 1 pvpEnabled
 	METHOD method_3032 setFlightEnabled (Z)V
 		ARG 1 flightEnabled
+	METHOD method_3034 shutdown ()V
 	METHOD method_3035 getServerIp ()Ljava/lang/String;
 	METHOD method_3040 getRunDirectory ()Ljava/io/File;
 	METHOD method_3043 setResourcePack (Ljava/lang/String;)V
 	METHOD method_3045 setMotd (Ljava/lang/String;)V
 		ARG 1 motd
+	METHOD method_3047 isNetherAllowed ()Z
 	METHOD method_3048 start ()V
