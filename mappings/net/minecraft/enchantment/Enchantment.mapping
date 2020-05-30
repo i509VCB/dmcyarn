@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_1127 net/minecraft/enchantment/Enchantment
 	FIELD field_4454 ENCHANTMENTS [Lnet/minecraft/class_1127;
+	FIELD field_4476 id I
 	METHOD <init> (IILnet/minecraft/class_1128;)V
 		ARG 1 id

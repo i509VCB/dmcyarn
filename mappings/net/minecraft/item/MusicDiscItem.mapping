@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1082 net/minecraft/item/MusicDiscItem
+	FIELD field_4392 track Ljava/lang/String;
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 track

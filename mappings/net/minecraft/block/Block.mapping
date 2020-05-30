@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_197 net/minecraft/block/Block
+	FIELD field_466 id I
 	FIELD field_492 BLOCKS [Lnet/minecraft/class_197;
 	METHOD <init> (ILnet/minecraft/class_63;)V
 		ARG 1 id

@@ -1,2 +1,30 @@
 CLASS net/minecraft/class_1069 net/minecraft/item/Item
+	FIELD field_4297 MUSIC_DISC_13 Lnet/minecraft/class_1069;
+	FIELD field_4298 MUSIC_DISC_CAT Lnet/minecraft/class_1069;
+	FIELD field_4299 MUSIC_DISC_BLOCKS Lnet/minecraft/class_1069;
+	FIELD field_4300 MUSIC_DISC_CHIRP Lnet/minecraft/class_1069;
+	FIELD field_4301 MUSIC_DISC_FAR Lnet/minecraft/class_1069;
+	FIELD field_4302 MUSIC_DISC_MALL Lnet/minecraft/class_1069;
+	FIELD field_4303 MUSIC_DISC_MELLOHI Lnet/minecraft/class_1069;
+	FIELD field_4304 MUSIC_DISC_STAL Lnet/minecraft/class_1069;
+	FIELD field_4305 MUSIC_DISC_STRAD Lnet/minecraft/class_1069;
+	FIELD field_4306 MUSIC_DISC_WARD Lnet/minecraft/class_1069;
+	FIELD field_4307 MUSIC_DISC_11 Lnet/minecraft/class_1069;
+	FIELD field_4308 id I
+	FIELD field_4309 maxCount I
+	FIELD field_4314 name Ljava/lang/String;
 	FIELD field_4343 ITEMS [Lnet/minecraft/class_1069;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD method_3342 getName ()Ljava/lang/String;
+	METHOD method_3352 appendTooltip (Lnet/minecraft/class_1071;Ljava/util/List;)V
+		ARG 1 stack
+		ARG 2 tooltip
+	METHOD method_3358 (Lnet/minecraft/class_1071;Lnet/minecraft/class_1150;Lnet/minecraft/class_988;)Lnet/minecraft/class_1071;
+		ARG 2 world
+	METHOD method_3365 name (Ljava/lang/String;)Lnet/minecraft/class_1069;
+		ARG 1 name
+	METHOD method_3373 maxCount (I)Lnet/minecraft/class_1069;
+		ARG 1 maxCount
+	METHOD method_3377 getRarity (Lnet/minecraft/class_1071;)Lnet/minecraft/class_1081;
+		ARG 1 stack

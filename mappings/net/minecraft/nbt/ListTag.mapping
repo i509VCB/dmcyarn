@@ -1,4 +1,8 @@
 CLASS net/minecraft/class_474 net/minecraft/nbt/ListTag
 	FIELD field_1636 value Ljava/util/List;
 	FIELD field_1637 type B
+	METHOD method_1216 remove (I)Lnet/minecraft/class_605;
+		ARG 1 index
+	METHOD method_1218 get (I)Lnet/minecraft/class_605;
+		ARG 1 index
 	METHOD method_1219 size ()I

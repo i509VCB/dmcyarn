@@ -1,5 +1,7 @@
 CLASS net/minecraft/class_322 net/minecraft/nbt/CompoundTag
 	FIELD field_899 tags Ljava/util/Map;
+	METHOD method_807 getTag (Ljava/lang/String;)Lnet/minecraft/class_605;
+		ARG 1 key
 	METHOD method_808 putByte (Ljava/lang/String;B)V
 		ARG 1 key
 		ARG 2 value
@@ -36,7 +38,7 @@ CLASS net/minecraft/class_322 net/minecraft/nbt/CompoundTag
 	METHOD method_819 putIntArray (Ljava/lang/String;[I)V
 		ARG 1 key
 		ARG 2 value
-	METHOD method_820 getBoolean (Ljava/lang/String;)Z
+	METHOD method_820 contains (Ljava/lang/String;)Z
 		ARG 1 key
 	METHOD method_822 getByte (Ljava/lang/String;)B
 		ARG 1 key

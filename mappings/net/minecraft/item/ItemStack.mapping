@@ -1,1 +1,42 @@
 CLASS net/minecraft/class_1071 net/minecraft/item/ItemStack
+	FIELD field_4376 amount I
+	FIELD field_4378 id I
+	FIELD field_4379 tag Lnet/minecraft/class_322;
+	FIELD field_4380 damage I
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 amount
+		ARG 3 damage
+	METHOD <init> (Lnet/minecraft/class_1069;)V
+		ARG 1 item
+	METHOD <init> (Lnet/minecraft/class_1069;I)V
+		ARG 1 item
+		ARG 2 amount
+	METHOD <init> (Lnet/minecraft/class_1069;II)V
+		ARG 1 item
+		ARG 2 amount
+		ARG 3 damage
+	METHOD <init> (Lnet/minecraft/class_197;)V
+		ARG 1 block
+	METHOD <init> (Lnet/minecraft/class_197;I)V
+		ARG 1 block
+		ARG 2 amount
+	METHOD <init> (Lnet/minecraft/class_197;II)V
+		ARG 1 block
+		ARG 2 amount
+		ARG 3 damage
+	METHOD method_3416 addEnchantment (Lnet/minecraft/class_1127;I)V
+		ARG 1 enchantment
+		ARG 2 level
+	METHOD method_3422 setDamage (I)V
+		ARG 1 damage
+	METHOD method_3424 toTag (Lnet/minecraft/class_322;)Lnet/minecraft/class_322;
+		ARG 1 tag
+	METHOD method_3430 fromTag (Lnet/minecraft/class_322;)V
+		ARG 1 tag
+	METHOD method_3433 setTag (Lnet/minecraft/class_322;)V
+	METHOD method_3439 ()I
+		COMMENT FIXME, ONE
+	METHOD method_3440 ()I
+		COMMENT FIXME, TWO
+	METHOD method_3452 hasEnchantments ()Z
