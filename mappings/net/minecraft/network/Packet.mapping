@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_700 net/minecraft/network/Packet
+	METHOD method_1827 registerPacket (IZZLjava/lang/Class;)V
+		ARG 0 id
+		ARG 3 packetClass

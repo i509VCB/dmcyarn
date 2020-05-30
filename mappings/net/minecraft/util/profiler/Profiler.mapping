@@ -1,0 +1,6 @@
+CLASS net/minecraft/class_839 net/minecraft/util/profiler/Profiler
+	METHOD method_2356 push (Ljava/lang/String;)V
+		ARG 1 location
+	METHOD method_2357 pop ()V
+	METHOD method_2360 swap (Ljava/lang/String;)V
+		ARG 1 location
