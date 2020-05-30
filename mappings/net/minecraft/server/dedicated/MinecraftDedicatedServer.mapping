@@ -1,2 +1,4 @@
 CLASS net/minecraft/class_770 net/minecraft/server/dedicated/MinecraftDedicatedServer
+	FIELD field_2735 generateStructures Z
+	FIELD field_2736 defaultGameMode Lnet/minecraft/class_1157;
 	METHOD method_2069 useGui ()V

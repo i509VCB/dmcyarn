@@ -1,20 +1,55 @@
 CLASS net/minecraft/server/MinecraftServer
+	FIELD field_3836 keyPair Ljava/security/KeyPair;
 	FIELD field_3840 demo Z
+	FIELD field_3841 bonusChest Z
 	FIELD field_3848 LOGGER Ljava/util/logging/Logger;
+	FIELD field_3849 profiler Lnet/minecraft/class_839;
 	FIELD field_3850 worlds [Lnet/minecraft/class_795;
 	FIELD field_3859 INSTANCE Lnet/minecraft/server/MinecraftServer;
 	FIELD field_3861 snooper Lnet/minecraft/class_853;
+	FIELD field_3866 serverPort I
 	FIELD field_3867 playerManager Lnet/minecraft/class_743;
 	METHOD main ([Ljava/lang/String;)V
 		ARG 0 args
+	METHOD method_2027 isDebuggingEnabled ()Z
+	METHOD method_2034 info (Ljava/lang/String;)V
+	METHOD method_2035 warn (Ljava/lang/String;)V
+	METHOD method_2037 logError (Ljava/lang/String;)V
+	METHOD method_2038 log (Ljava/lang/String;)V
 	METHOD method_2042 getServerVersion ()Ljava/lang/String;
+	METHOD method_2043 getCurrentPlayerCount ()I
+	METHOD method_2044 getMaxPlayerCount ()I
+	METHOD method_2045 getPlayerNames ()[Ljava/lang/String;
 	METHOD method_2970 getInstance ()Lnet/minecraft/server/MinecraftServer;
+	METHOD method_2972 getKeyPair ()Ljava/security/KeyPair;
+	METHOD method_2973 getServerPort ()I
 	METHOD method_2978 isDemo ()Z
 	METHOD method_2983 isDedicated ()Z
+	METHOD method_2991 getWorld (I)Lnet/minecraft/class_795;
+		ARG 1 id
 	METHOD method_2993 setPlayerManager (Lnet/minecraft/class_743;)V
 		ARG 1 manager
+	METHOD method_2996 setKeyPair (Ljava/security/KeyPair;)V
+		ARG 1 keyPair
 	METHOD method_3004 getPlayerManager ()Lnet/minecraft/class_743;
 	METHOD method_3010 getSnooper ()Lnet/minecraft/class_853;
+	METHOD method_3011 setupServer ()Z
+	METHOD method_3012 setServerPort (I)V
+		ARG 1 serverPort
 	METHOD method_3014 setDemo (Z)V
 		ARG 1 demo
+	METHOD method_3018 setBonusChest (Z)V
+		ARG 1 bonusChest
+	METHOD method_3022 setOnlineMode (Z)V
+	METHOD method_3023 shouldGenerateStructures ()Z
+	METHOD method_3024 setServerIp (Ljava/lang/String;)V
+	METHOD method_3025 setSpawnAnimals (Z)V
+	METHOD method_3026 getDefaultGameMode ()Lnet/minecraft/class_1157;
+	METHOD method_3027 getFile (Ljava/lang/String;)Ljava/io/File;
+	METHOD method_3028 setSpawnNpcs (Z)V
+	METHOD method_3030 setPvpEnabled (Z)V
+	METHOD method_3032 setFlightEnabled (Z)V
+	METHOD method_3040 getRunDirectory ()Ljava/io/File;
+	METHOD method_3043 setResourcePack (Ljava/lang/String;)V
+	METHOD method_3045 setMotd (Ljava/lang/String;)V
 	METHOD method_3048 start ()V

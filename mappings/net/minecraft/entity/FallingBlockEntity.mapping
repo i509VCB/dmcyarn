@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_963 net/minecraft/entity/FallingBlockEntity
+	METHOD method_3056 getEntityWorld ()Lnet/minecraft/class_1150;

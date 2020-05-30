@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_776 net/minecraft/server/dedicated/DedicatedServerGui
+	FIELD field_2751 LOGGER Ljava/util/logging/Logger;
+	METHOD method_2080 create (Lnet/minecraft/class_770;)V
