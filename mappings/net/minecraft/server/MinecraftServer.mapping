@@ -3,5 +3,6 @@ CLASS net/minecraft/server/MinecraftServer
 	FIELD field_3859 INSTANCE Lnet/minecraft/server/MinecraftServer;
 	METHOD main ([Ljava/lang/String;)V
 		ARG 0 args
+	METHOD method_2042 getServerVersion ()Ljava/lang/String;
 	METHOD method_2970 getInstance ()Lnet/minecraft/server/MinecraftServer;
 	METHOD method_2983 isDedicated ()Z
