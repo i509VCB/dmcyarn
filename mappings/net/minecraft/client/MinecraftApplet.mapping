@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/MinecraftApplet
+	FIELD field_3826 client Lnet/minecraft/client/Minecraft;

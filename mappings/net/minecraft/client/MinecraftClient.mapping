@@ -1,0 +1,13 @@
+CLASS net/minecraft/client/Minecraft net/minecraft/client/MinecraftClient
+	COMMENT FIXME: Give the client intermediaries
+	FIELD field_3767 profiler Lnet/minecraft/class_839;
+	FIELD field_3774 instance Lnet/minecraft/client/Minecraft;
+	FIELD field_3784 server Lnet/minecraft/class_601;
+	FIELD field_3803 world Lnet/minecraft/class_478;
+	FIELD field_3808 session Lnet/minecraft/class_355;
+	METHOD main ([Ljava/lang/String;)V
+		ARG 0 arguments
+	METHOD method_2909 getServer ()Lnet/minecraft/class_601;
+	METHOD method_2935 startIntegratedServer (Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/class_1156;)V
+	METHOD method_2940 getOperatingSystem ()Lnet/minecraft/class_342;
+	METHOD method_2965 getInstance ()Lnet/minecraft/client/Minecraft;
