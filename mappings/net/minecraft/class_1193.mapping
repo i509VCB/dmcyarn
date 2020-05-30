@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_1193
+	METHOD method_3874 getLoadedChunkCount ()I

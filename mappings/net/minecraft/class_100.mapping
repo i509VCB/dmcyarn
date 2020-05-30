@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_100
+	METHOD method_233 getGameMode ()Lnet/minecraft/class_1157;
+	METHOD method_235 isHardcore ()Z

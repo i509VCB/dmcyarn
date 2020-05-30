@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_1160
+	METHOD method_3787 getName ()Ljava/lang/String;
+	METHOD method_3792 getVersion ()I

@@ -1,4 +1,8 @@
 CLASS net/minecraft/server/MinecraftServer
+	FIELD field_3828 pvpEnabled Z
+	FIELD field_3829 flightEnabled Z
+	FIELD field_3830 motd Ljava/lang/String;
+	FIELD field_3831 worldHeight I
 	FIELD field_3836 keyPair Ljava/security/KeyPair;
 	FIELD field_3840 demo Z
 	FIELD field_3841 bonusChest Z
@@ -7,8 +11,12 @@ CLASS net/minecraft/server/MinecraftServer
 	FIELD field_3850 worlds [Lnet/minecraft/class_795;
 	FIELD field_3859 INSTANCE Lnet/minecraft/server/MinecraftServer;
 	FIELD field_3861 snooper Lnet/minecraft/class_853;
+	FIELD field_3865 serverIp Ljava/lang/String;
 	FIELD field_3866 serverPort I
 	FIELD field_3867 playerManager Lnet/minecraft/class_743;
+	FIELD field_3871 onlineMode Z
+	FIELD field_3872 spawnAnimals Z
+	FIELD field_3873 spawnNpcs Z
 	METHOD main ([Ljava/lang/String;)V
 		ARG 0 args
 	METHOD method_2027 isDebuggingEnabled ()Z
@@ -25,6 +33,12 @@ CLASS net/minecraft/server/MinecraftServer
 	METHOD method_2973 getServerPort ()I
 	METHOD method_2978 isDemo ()Z
 	METHOD method_2983 isDedicated ()Z
+	METHOD method_2984 isOnlineMode ()Z
+	METHOD method_2985 shouldSpawnAnimals ()Z
+	METHOD method_2986 shouldSpawnNpcs ()Z
+	METHOD method_2987 isPvpEnabled ()Z
+	METHOD method_2988 isFlightEnabled ()Z
+	METHOD method_2989 getServerMotd ()Ljava/lang/String;
 	METHOD method_2991 getWorld (I)Lnet/minecraft/class_795;
 		ARG 1 id
 	METHOD method_2993 setPlayerManager (Lnet/minecraft/class_743;)V
@@ -41,15 +55,23 @@ CLASS net/minecraft/server/MinecraftServer
 	METHOD method_3018 setBonusChest (Z)V
 		ARG 1 bonusChest
 	METHOD method_3022 setOnlineMode (Z)V
+		ARG 1 onlineMode
 	METHOD method_3023 shouldGenerateStructures ()Z
 	METHOD method_3024 setServerIp (Ljava/lang/String;)V
+		ARG 1 serverIp
 	METHOD method_3025 setSpawnAnimals (Z)V
+		ARG 1 spawnAnimals
 	METHOD method_3026 getDefaultGameMode ()Lnet/minecraft/class_1157;
 	METHOD method_3027 getFile (Ljava/lang/String;)Ljava/io/File;
 	METHOD method_3028 setSpawnNpcs (Z)V
+		ARG 1 spawnNpcs
 	METHOD method_3030 setPvpEnabled (Z)V
+		ARG 1 pvpEnabled
 	METHOD method_3032 setFlightEnabled (Z)V
+		ARG 1 flightEnabled
+	METHOD method_3035 getServerIp ()Ljava/lang/String;
 	METHOD method_3040 getRunDirectory ()Ljava/io/File;
 	METHOD method_3043 setResourcePack (Ljava/lang/String;)V
 	METHOD method_3045 setMotd (Ljava/lang/String;)V
+		ARG 1 motd
 	METHOD method_3048 start ()V
