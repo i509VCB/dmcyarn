@@ -1,1 +1,2 @@
 CLASS net/minecraft/class_988 net/minecraft/entity/player/PlayerEntity
+	FIELD field_3982 username Ljava/lang/String;

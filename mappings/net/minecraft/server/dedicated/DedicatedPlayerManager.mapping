@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_769 net/minecraft/server/dedicated/DedicatedPlayerManager
+	METHOD <init> (Lnet/minecraft/class_770;)V
+		ARG 1 dedicatedServer

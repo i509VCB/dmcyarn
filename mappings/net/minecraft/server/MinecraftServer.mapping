@@ -1,8 +1,17 @@
 CLASS net/minecraft/server/MinecraftServer
+	FIELD field_3840 demo Z
 	FIELD field_3848 LOGGER Ljava/util/logging/Logger;
+	FIELD field_3850 worlds [Lnet/minecraft/class_795;
 	FIELD field_3859 INSTANCE Lnet/minecraft/server/MinecraftServer;
+	FIELD field_3861 snooper Lnet/minecraft/class_853;
+	FIELD field_3867 playerManager Lnet/minecraft/class_743;
 	METHOD main ([Ljava/lang/String;)V
 		ARG 0 args
 	METHOD method_2042 getServerVersion ()Ljava/lang/String;
 	METHOD method_2970 getInstance ()Lnet/minecraft/server/MinecraftServer;
+	METHOD method_2978 isDemo ()Z
 	METHOD method_2983 isDedicated ()Z
+	METHOD method_3010 getSnooper ()Lnet/minecraft/class_853;
+	METHOD method_3014 setDemo (Z)V
+		ARG 1 demo
+	METHOD method_3048 start ()V

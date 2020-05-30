@@ -1,0 +1,3 @@
+CLASS net/minecraft/class_600 net/minecraft/server/integrated/IntegratedPlayerManager
+	METHOD <init> (Lnet/minecraft/class_601;)V
+		ARG 1 integratedServer

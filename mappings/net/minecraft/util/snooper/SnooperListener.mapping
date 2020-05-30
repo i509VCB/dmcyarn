@@ -1,2 +1,3 @@
 CLASS net/minecraft/class_855 net/minecraft/util/snooper/SnooperListener
 	METHOD method_2410 addSnooperInfo (Lnet/minecraft/class_853;)V
+		ARG 1 snooper

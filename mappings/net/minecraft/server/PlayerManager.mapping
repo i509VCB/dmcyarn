@@ -1,0 +1,14 @@
+CLASS net/minecraft/class_743 net/minecraft/server/PlayerManager
+	FIELD field_2707 LOGGER Ljava/util/logging/Logger;
+	FIELD field_2708 players Ljava/util/List;
+	FIELD field_2711 DATE_FORMATTER Ljava/text/SimpleDateFormat;
+	FIELD field_2712 server Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 server
+	METHOD method_1981 sendToAll (Lnet/minecraft/class_700;)V
+		ARG 1 packet
+	METHOD method_1986 (Lnet/minecraft/class_798;Lnet/minecraft/class_795;)V
+		ARG 1 playerEntity
+	METHOD method_2010 getPlayer (Ljava/lang/String;)Lnet/minecraft/class_798;
+		ARG 1 username
+	METHOD method_2023 getServer ()Lnet/minecraft/server/MinecraftServer;

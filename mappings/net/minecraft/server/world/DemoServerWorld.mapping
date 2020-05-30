@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_787 net/minecraft/server/world/DemoServerWorld
+	FIELD field_2777 DEMO_SEED J
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/class_101;Ljava/lang/String;ILnet/minecraft/class_839;)V
+		ARG 1 server
+		ARG 5 profiler
