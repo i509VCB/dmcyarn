@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_552 net/minecraft/nbt/ShortTag
+	FIELD field_2115 value S
+	METHOD <init> (Ljava/lang/String;S)V
+		ARG 1 key
+		ARG 2 value

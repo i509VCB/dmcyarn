@@ -1,0 +1,62 @@
+CLASS net/minecraft/class_322 net/minecraft/nbt/CompoundTag
+	FIELD field_899 tags Ljava/util/Map;
+	METHOD method_808 putByte (Ljava/lang/String;B)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_809 putDouble (Ljava/lang/String;D)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_810 putFloat (Ljava/lang/String;F)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_811 putInt (Ljava/lang/String;I)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_812 putLong (Ljava/lang/String;J)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_813 putCompound (Ljava/lang/String;Lnet/minecraft/class_322;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_814 put (Ljava/lang/String;Lnet/minecraft/class_605;)V
+		ARG 1 key
+		ARG 2 tag
+	METHOD method_815 putString (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_816 putShort (Ljava/lang/String;S)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_817 putBoolean (Ljava/lang/String;Z)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_818 putByteArray (Ljava/lang/String;[B)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_819 putIntArray (Ljava/lang/String;[I)V
+		ARG 1 key
+		ARG 2 value
+	METHOD method_820 getBoolean (Ljava/lang/String;)Z
+		ARG 1 key
+	METHOD method_822 getByte (Ljava/lang/String;)B
+		ARG 1 key
+	METHOD method_823 getShort (Ljava/lang/String;)S
+		ARG 1 key
+	METHOD method_824 getInt (Ljava/lang/String;)I
+		ARG 1 key
+	METHOD method_825 getLong (Ljava/lang/String;)J
+		ARG 1 key
+	METHOD method_826 getFloat (Ljava/lang/String;)F
+		ARG 1 key
+	METHOD method_827 getDouble (Ljava/lang/String;)D
+		ARG 1 key
+	METHOD method_828 getString (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 key
+	METHOD method_829 getByteArray (Ljava/lang/String;)[B
+		ARG 1 key
+	METHOD method_830 getIntArray (Ljava/lang/String;)[I
+		ARG 1 key
+	METHOD method_831 getCompound (Ljava/lang/String;)Lnet/minecraft/class_322;
+		ARG 1 key
+	METHOD method_832 getList (Ljava/lang/String;)Lnet/minecraft/class_474;
+		ARG 1 key

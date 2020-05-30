@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_501 net/minecraft/nbt/LongTag
+	FIELD field_1720 value J
+	METHOD <init> (Ljava/lang/String;J)V
+		ARG 1 key
+		ARG 2 value

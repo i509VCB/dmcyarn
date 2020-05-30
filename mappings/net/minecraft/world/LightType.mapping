@@ -1,0 +1,4 @@
+CLASS net/minecraft/class_1161 net/minecraft/world/LightType
+	FIELD field_4590 value I
+	METHOD <init> (Ljava/lang/String;II)V
+		ARG 3 value

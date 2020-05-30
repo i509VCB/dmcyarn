@@ -1,0 +1,11 @@
+CLASS net/minecraft/class_226 net/minecraft/block/entity/BlockEntity
+	FIELD field_563 BLOCK_ENTITY_ID_TO_CLASS Ljava/util/Map;
+	FIELD field_564 BLOCK_ENTITY_CLASS_TO_ID Ljava/util/Map;
+	FIELD field_565 world Lnet/minecraft/class_1150;
+	METHOD method_538 registerBlockEntity (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 blockEntityClass
+		ARG 1 blockEntityId
+	METHOD method_539 setWorld (Lnet/minecraft/class_1150;)V
+		ARG 1 world
+	METHOD method_548 getWorld ()Lnet/minecraft/class_1150;
+	METHOD method_549 hasWorld ()Z
