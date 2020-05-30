@@ -7,5 +7,6 @@ CLASS net/minecraft/class_226 net/minecraft/block/entity/BlockEntity
 		ARG 1 blockEntityId
 	METHOD method_539 setWorld (Lnet/minecraft/class_1150;)V
 		ARG 1 world
+	METHOD method_545 tick ()V
 	METHOD method_548 getWorld ()Lnet/minecraft/class_1150;
 	METHOD method_549 hasWorld ()Z

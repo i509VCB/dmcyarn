@@ -1,2 +1,4 @@
 CLASS net/minecraft/class_871
+	FIELD field_3294 health I
 	FIELD field_3322 texture Ljava/lang/String;
+	METHOD method_2599 getDefaultHealth ()I

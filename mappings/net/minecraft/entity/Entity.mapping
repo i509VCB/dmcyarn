@@ -1,11 +1,35 @@
 CLASS net/minecraft/class_864 net/minecraft/entity/Entity
+	FIELD field_3204 removed Z
+	FIELD field_3219 MAX_ENTITY_ID I
 	FIELD field_3248 world Lnet/minecraft/class_1150;
+	FIELD field_3255 velocityX D
+	FIELD field_3256 velocityY D
+	FIELD field_3257 velocityZ D
 	METHOD <init> (Lnet/minecraft/class_1150;)V
 		ARG 1 world
 	METHOD method_2473 getTexture ()Ljava/lang/String;
+	METHOD method_2498 readCustomDataFromTag (Lnet/minecraft/class_322;)V
+		ARG 1 tag
 	METHOD method_2499 damage (Lnet/minecraft/class_856;I)Z
 		ARG 1 source
 		ARG 2 amount
 	METHOD method_2504 setWorld (Lnet/minecraft/class_1150;)V
 		ARG 1 world
+	METHOD method_2528 writeCustomDataToTag (Lnet/minecraft/class_322;)V
+		ARG 1 tag
+	METHOD method_2535 saveSelfToTag (Lnet/minecraft/class_322;)Z
+		ARG 1 tag
+	METHOD method_2542 toTag (Lnet/minecraft/class_322;)V
+		ARG 1 tag
+	METHOD method_2547 fromTag (Lnet/minecraft/class_322;)V
+		ARG 1 tag
+	METHOD method_2553 addVelocity (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_2556 setVelocity (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD method_2558 tick ()V
 	METHOD method_2564 baseTick ()V
