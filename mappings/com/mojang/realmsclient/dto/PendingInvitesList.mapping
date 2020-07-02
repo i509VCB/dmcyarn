@@ -1,5 +1,3 @@
-CLASS net/minecraft/class_4872 com/mojang/realmsclient/dto/PendingInvitesList
-	FIELD field_22586 pendingInvites Ljava/util/List;
-	FIELD field_22587 LOGGER Lorg/apache/logging/log4j/Logger;
-	METHOD method_25041 parse (Ljava/lang/String;)Lnet/minecraft/class_4872;
+CLASS com/mojang/realmsclient/dto/PendingInvitesList
+	METHOD parse (Ljava/lang/String;)Lcom/mojang/realmsclient/dto/PendingInvitesList;
 		ARG 0 json

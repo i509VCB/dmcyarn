@@ -23,7 +23,7 @@ CLASS net/minecraft/class_4267 net/minecraft/client/gui/screen/multiplayer/Multi
 	CLASS class_504 Entry
 	CLASS class_4268 ScanningEntry
 		FIELD field_19112 client Lnet/minecraft/class_310;
-	CLASS class_4269 LanServerEntry
+	CLASS class_4269 LanServerListEntry
 		FIELD field_19113 client Lnet/minecraft/class_310;
 		FIELD field_19114 server Lnet/minecraft/class_1131;
 		FIELD field_19115 screen Lnet/minecraft/class_500;
@@ -32,6 +32,10 @@ CLASS net/minecraft/class_4267 net/minecraft/client/gui/screen/multiplayer/Multi
 			ARG 1 screen
 			ARG 2 server
 		METHOD method_20132 getLanServerEntry ()Lnet/minecraft/class_1131;
+		METHOD mouseClicked (DDI)Z
+			ARG 1 mouseX
+			ARG 3 mouseY
+			ARG 5 button
 	CLASS class_4270 ServerEntry
 		FIELD field_19118 screen Lnet/minecraft/class_500;
 		FIELD field_19119 client Lnet/minecraft/class_310;
@@ -44,7 +48,12 @@ CLASS net/minecraft/class_4267 net/minecraft/client/gui/screen/multiplayer/Multi
 			ARG 2 screen
 			ARG 3 server
 		METHOD method_20133 getServer ()Lnet/minecraft/class_642;
-		METHOD method_20134 draw (Lnet/minecraft/class_4587;IILnet/minecraft/class_2960;)V
-		METHOD method_22110 swapEntries (II)V
-			ARG 1 i
-			ARG 2 j
+		METHOD method_20134 draw (IILnet/minecraft/class_2960;)V
+			ARG 1 x
+			ARG 2 y
+			ARG 3 textureId
+		METHOD method_20137 updateIcon ()V
+		METHOD mouseClicked (DDI)Z
+			ARG 1 mouseX
+			ARG 3 mouseY
+			ARG 5 button

@@ -1,34 +1,35 @@
 CLASS net/minecraft/class_2925 net/minecraft/world/gen/carver/CaveCarver
-	METHOD method_12674 carveCave (Lnet/minecraft/class_2791;Ljava/util/function/Function;JIIIDDDFDLjava/util/BitSet;)V
+	METHOD <init> (Ljava/util/function/Function;I)V
+		ARG 1 configDeserializer
+		ARG 2 heightLimit
+	METHOD method_12674 carveCave (Lnet/minecraft/class_2791;JIIIDDDFDLjava/util/BitSet;)V
 		ARG 1 chunk
-		ARG 2 posToBiome
-		ARG 3 seed
-		ARG 5 seaLevel
-		ARG 6 mainChunkX
-		ARG 7 mainChunkZ
-		ARG 8 x
-		ARG 10 y
-		ARG 12 z
-		ARG 14 yaw
-		ARG 15 yawPitchRatio
-		ARG 17 carvingMask
-	METHOD method_12675 carveTunnels (Lnet/minecraft/class_2791;Ljava/util/function/Function;JIIIDDDFFFIIDLjava/util/BitSet;)V
+		ARG 2 seed
+		ARG 4 seaLevel
+		ARG 5 mainChunkX
+		ARG 6 mainChunkZ
+		ARG 7 x
+		ARG 9 y
+		ARG 11 z
+		ARG 13 width
+		ARG 14 heightWidthRatio
+		ARG 16 mask
+	METHOD method_12675 carveTunnels (Lnet/minecraft/class_2791;JIIIDDDFFFIIDLjava/util/BitSet;)V
 		ARG 1 chunk
-		ARG 2 postToBiome
-		ARG 3 seed
-		ARG 5 seaLevel
-		ARG 6 mainChunkX
-		ARG 7 mainChunkZ
-		ARG 8 x
-		ARG 10 y
-		ARG 12 z
-		ARG 14 width
-		ARG 15 yaw
-		ARG 16 pitch
-		ARG 17 branchStartIndex
-		ARG 18 branchCount
-		ARG 19 yawPitchRatio
-		ARG 21 carvingMask
+		ARG 2 seed
+		ARG 4 seaLevel
+		ARG 5 mainChunkX
+		ARG 6 mainChunkZ
+		ARG 7 x
+		ARG 9 y
+		ARG 11 z
+		ARG 13 baseWidth
+		ARG 14 xzAngle
+		ARG 15 yAngle
+		ARG 16 currentBranch
+		ARG 17 height
+		ARG 18 heightWidthRatio
+		ARG 20 mask
 	METHOD method_16576 getTunnelSystemWidth (Ljava/util/Random;)F
 	METHOD method_16577 getMaxCaveCount ()I
 	METHOD method_16578 getTunnelSystemHeightWidthRatio ()D

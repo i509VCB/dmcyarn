@@ -1,4 +1,6 @@
 CLASS net/minecraft/class_3300 net/minecraft/resource/ResourceManager
+	METHOD method_14475 addPack (Lnet/minecraft/class_3262;)V
+		ARG 1 pack
 	METHOD method_14486 getResource (Lnet/minecraft/class_2960;)Lnet/minecraft/class_3298;
 		ARG 1 id
 	METHOD method_14487 getAllNamespaces ()Ljava/util/Set;
@@ -9,7 +11,3 @@ CLASS net/minecraft/class_3300 net/minecraft/resource/ResourceManager
 		ARG 1 id
 	METHOD method_18234 containsResource (Lnet/minecraft/class_2960;)Z
 		ARG 1 id
-	METHOD method_29213 streamResourcePacks ()Ljava/util/stream/Stream;
-	METHOD method_29489 findResources (Lnet/minecraft/class_2960;Ljava/util/function/Predicate;)Ljava/util/Collection;
-		ARG 1 resourceType
-	CLASS class_5353 Empty

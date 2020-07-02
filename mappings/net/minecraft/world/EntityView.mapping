@@ -1,5 +1,11 @@
 CLASS net/minecraft/class_1924 net/minecraft/world/EntityView
+	METHOD method_18020 (Lnet/minecraft/class_1297;Lnet/minecraft/class_1297;)Z
+		ARG 1 e
 	METHOD method_18456 getPlayers ()Ljava/util/List;
+	METHOD method_18457 getClosestPlayer (DDD)Lnet/minecraft/class_1657;
+		ARG 1 x
+		ARG 3 z
+		ARG 5 maxDistance
 	METHOD method_18458 isPlayerInRange (DDDD)Z
 		ARG 1 x
 		ARG 3 y
@@ -35,7 +41,7 @@ CLASS net/minecraft/class_1924 net/minecraft/world/EntityView
 	METHOD method_18466 getTargets (Ljava/lang/Class;Lnet/minecraft/class_4051;Lnet/minecraft/class_1309;Lnet/minecraft/class_238;)Ljava/util/List;
 		ARG 1 entityClass
 		ARG 2 targetPredicate
-		ARG 3 targetingEntity
+		ARG 3 targettingEntity
 		ARG 4 box
 	METHOD method_18467 getNonSpectatingEntities (Ljava/lang/Class;Lnet/minecraft/class_238;)Ljava/util/List;
 		ARG 1 entityClass
@@ -49,33 +55,6 @@ CLASS net/minecraft/class_1924 net/minecraft/world/EntityView
 		ARG 8 z
 	METHOD method_18470 getPlayerByUuid (Ljava/util/UUID;)Lnet/minecraft/class_1657;
 		ARG 1 uuid
-	METHOD method_20743 getEntityCollisions (Lnet/minecraft/class_1297;Lnet/minecraft/class_238;Ljava/util/function/Predicate;)Ljava/util/stream/Stream;
-		ARG 1 entity
-		ARG 2 box
-		ARG 3 predicate
-	METHOD method_21726 getClosestEntity (Ljava/lang/Class;Lnet/minecraft/class_4051;Lnet/minecraft/class_1309;DDDLnet/minecraft/class_238;)Lnet/minecraft/class_1309;
-		ARG 1 entityClass
-		ARG 2 targetPredicate
-		ARG 3 entity
-		ARG 4 x
-		ARG 6 y
-		ARG 8 z
-		ARG 10 box
-	METHOD method_21727 getClosestEntityIncludingUngeneratedChunks (Ljava/lang/Class;Lnet/minecraft/class_4051;Lnet/minecraft/class_1309;DDDLnet/minecraft/class_238;)Lnet/minecraft/class_1309;
-		ARG 1 entityClass
-		ARG 2 targetPredicate
-		ARG 3 entity
-		ARG 4 x
-		ARG 6 y
-		ARG 8 z
-		ARG 10 box
-	METHOD method_21728 getEntitiesIncludingUngeneratedChunks (Ljava/lang/Class;Lnet/minecraft/class_238;)Ljava/util/List;
-		ARG 1 entityClass
-		ARG 2 box
-	METHOD method_21729 getEntitiesIncludingUngeneratedChunks (Ljava/lang/Class;Lnet/minecraft/class_238;Ljava/util/function/Predicate;)Ljava/util/List;
-		ARG 1 entityClass
-		ARG 2 box
-		ARG 3 predicate
 	METHOD method_8333 getEntities (Lnet/minecraft/class_1297;Lnet/minecraft/class_238;Ljava/util/function/Predicate;)Ljava/util/List;
 		ARG 1 except
 		ARG 2 box
@@ -83,6 +62,10 @@ CLASS net/minecraft/class_1924 net/minecraft/world/EntityView
 	METHOD method_8335 getEntities (Lnet/minecraft/class_1297;Lnet/minecraft/class_238;)Ljava/util/List;
 		ARG 1 except
 		ARG 2 box
+	METHOD method_8336 (Lnet/minecraft/class_1297;Lnet/minecraft/class_1297;)Ljava/util/stream/Stream;
+		ARG 1 e
+	METHOD method_8337 (Ljava/util/Set;Lnet/minecraft/class_1297;)Z
+		ARG 1 e
 	METHOD method_8338 (Lnet/minecraft/class_1297;Lnet/minecraft/class_1297;)Z
 		ARG 1 e
 	METHOD method_8390 getEntities (Ljava/lang/Class;Lnet/minecraft/class_238;Ljava/util/function/Predicate;)Ljava/util/List;
@@ -96,5 +79,5 @@ CLASS net/minecraft/class_1924 net/minecraft/world/EntityView
 		ARG 7 maxDistance
 		ARG 9 targetPredicate
 	METHOD method_8611 intersectsEntities (Lnet/minecraft/class_1297;Lnet/minecraft/class_265;)Z
-		ARG 1 entity
+		ARG 1 except
 		ARG 2 shape

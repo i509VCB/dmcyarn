@@ -23,7 +23,7 @@ plugins {
 	id 'java' // for jd gen
 }
 
-def minecraft_version = "20w27a"
+def minecraft_version = "1.14.4"
 
 def ENV = System.getenv()
 // Fetch build number from Jenkins

@@ -1,13 +1,6 @@
-CLASS net/minecraft/class_4642 net/minecraft/world/gen/feature/SpringFeatureConfig
-	FIELD field_21283 state Lnet/minecraft/class_3610;
-	FIELD field_21284 requiresBlockBelow Z
-	FIELD field_21285 rockCount I
-	FIELD field_21286 holeCount I
-	FIELD field_21287 validBlocks Ljava/util/Set;
-	FIELD field_24912 CODEC Lcom/mojang/serialization/Codec;
-	METHOD <init> (Lnet/minecraft/class_3610;ZIILjava/util/Set;)V
+CLASS net/minecraft/class_3187 net/minecraft/world/gen/feature/SpringFeatureConfig
+	FIELD field_13850 state Lnet/minecraft/class_3610;
+	METHOD <init> (Lnet/minecraft/class_3610;)V
 		ARG 1 state
-		ARG 2 requiresBlockBelow
-		ARG 3 rockCount
-		ARG 4 holeCount
-		ARG 5 validBlocks
+	METHOD method_13984 deserialize (Lcom/mojang/datafixers/Dynamic;)Lnet/minecraft/class_3187;
+		ARG 0 dynamic

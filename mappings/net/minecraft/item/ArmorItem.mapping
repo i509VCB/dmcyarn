@@ -1,6 +1,4 @@
 CLASS net/minecraft/class_1738 net/minecraft/item/ArmorItem
-	FIELD field_21976 knockbackResistance F
-	FIELD field_23741 attributeModifiers Lcom/google/common/collect/Multimap;
 	FIELD field_7876 MODIFIERS [Ljava/util/UUID;
 	FIELD field_7877 toughness F
 	FIELD field_7878 protection I
@@ -11,7 +9,7 @@ CLASS net/minecraft/class_1738 net/minecraft/item/ArmorItem
 		ARG 1 material
 		ARG 2 slot
 		ARG 3 settings
-	METHOD method_7684 dispenseArmor (Lnet/minecraft/class_2342;Lnet/minecraft/class_1799;)Z
+	METHOD method_7684 dispenseArmor (Lnet/minecraft/class_2342;Lnet/minecraft/class_1799;)Lnet/minecraft/class_1799;
 		ARG 0 pointer
 		ARG 1 armor
 	METHOD method_7685 getSlotType ()Lnet/minecraft/class_1304;

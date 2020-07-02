@@ -17,7 +17,7 @@ CLASS net/minecraft/class_344 net/minecraft/client/gui/widget/TexturedButtonWidg
 		ARG 9 textureWidth
 		ARG 10 textureHeight
 		ARG 11 pressAction
-	METHOD <init> (IIIIIIILnet/minecraft/class_2960;IILnet/minecraft/class_4185$class_4241;Lnet/minecraft/class_2561;)V
+	METHOD <init> (IIIIIIILnet/minecraft/class_2960;IILnet/minecraft/class_4185$class_4241;Ljava/lang/String;)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 width
@@ -29,6 +29,7 @@ CLASS net/minecraft/class_344 net/minecraft/client/gui/widget/TexturedButtonWidg
 		ARG 9 textureWidth
 		ARG 10 textureHeight
 		ARG 11 pressAction
+		ARG 12 text
 	METHOD <init> (IIIIIIILnet/minecraft/class_2960;Lnet/minecraft/class_4185$class_4241;)V
 		ARG 1 x
 		ARG 2 y
@@ -42,3 +43,7 @@ CLASS net/minecraft/class_344 net/minecraft/client/gui/widget/TexturedButtonWidg
 	METHOD method_1893 setPos (II)V
 		ARG 1 x
 		ARG 2 y
+	METHOD renderButton (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 delta

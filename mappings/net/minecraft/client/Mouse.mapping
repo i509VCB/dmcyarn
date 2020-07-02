@@ -5,7 +5,6 @@ CLASS net/minecraft/class_312 net/minecraft/client/Mouse
 	FIELD field_1782 cursorYSmoother Lnet/minecraft/class_3540;
 	FIELD field_1783 isCursorLocked Z
 	FIELD field_1784 hasResolutionChanged Z
-	FIELD field_1785 lastMouseUpdateTime D
 	FIELD field_1786 eventDeltaWheel D
 	FIELD field_1787 cursorDeltaY D
 	FIELD field_1788 rightButtonClicked Z
@@ -19,13 +18,7 @@ CLASS net/minecraft/class_312 net/minecraft/client/Mouse
 	METHOD <init> (Lnet/minecraft/class_310;)V
 		ARG 1 client
 	METHOD method_1598 onMouseScroll (JDD)V
-		COMMENT Called when a mouse is used to scroll.
 		ARG 1 window
-			COMMENT the window handle
-		ARG 3 horizontal
-			COMMENT the horizontal scroll distance
-		ARG 5 vertical
-			COMMENT the vertical scroll distance
 	METHOD method_1599 onResolutionChanged ()V
 	METHOD method_1600 onCursorPos (JDD)V
 		ARG 1 window

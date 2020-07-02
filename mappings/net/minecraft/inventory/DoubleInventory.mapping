@@ -5,4 +5,3 @@ CLASS net/minecraft/class_1258 net/minecraft/inventory/DoubleInventory
 		ARG 1 first
 		ARG 2 second
 	METHOD method_5405 isPart (Lnet/minecraft/class_1263;)Z
-		ARG 1 inventory

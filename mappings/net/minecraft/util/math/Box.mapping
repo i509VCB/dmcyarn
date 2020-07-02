@@ -1,10 +1,10 @@
 CLASS net/minecraft/class_238 net/minecraft/util/math/Box
-	FIELD field_1320 maxX D
-	FIELD field_1321 minZ D
-	FIELD field_1322 minY D
-	FIELD field_1323 minX D
-	FIELD field_1324 maxZ D
-	FIELD field_1325 maxY D
+	FIELD field_1320 x2 D
+	FIELD field_1321 z1 D
+	FIELD field_1322 y1 D
+	FIELD field_1323 x1 D
+	FIELD field_1324 z2 D
+	FIELD field_1325 y2 D
 	METHOD <init> (DDDDDD)V
 		ARG 1 x1
 		ARG 3 y1
@@ -12,8 +12,6 @@ CLASS net/minecraft/class_238 net/minecraft/util/math/Box
 		ARG 7 x2
 		ARG 9 y2
 		ARG 11 z2
-	METHOD <init> (Lnet/minecraft/class_2338;)V
-		ARG 1 pos
 	METHOD <init> (Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;)V
 		ARG 1 pos1
 		ARG 2 pos2
@@ -38,14 +36,6 @@ CLASS net/minecraft/class_238 net/minecraft/util/math/Box
 	METHOD method_1005 getCenter ()Lnet/minecraft/class_243;
 	METHOD method_1006 contains (Lnet/minecraft/class_243;)Z
 		ARG 1 vec
-	METHOD method_1007 traceCollisionSide (Lnet/minecraft/class_238;Lnet/minecraft/class_243;[DLnet/minecraft/class_2350;DDD)Lnet/minecraft/class_2350;
-		ARG 0 box
-		ARG 1 intersectingVector
-		ARG 2 traceDistanceResult
-		ARG 3 approachDirection
-		ARG 4 xDelta
-		ARG 6 yDelta
-		ARG 8 zDelta
 	METHOD method_1008 contains (DDD)Z
 		ARG 1 x
 		ARG 3 y

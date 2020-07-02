@@ -1,5 +1,4 @@
 CLASS net/minecraft/class_1079 net/minecraft/client/resource/metadata/AnimationResourceMetadata
-	FIELD field_21768 EMPTY Lnet/minecraft/class_1079;
 	FIELD field_5334 defaultFrameTime I
 	FIELD field_5335 interpolate Z
 	FIELD field_5336 height I
@@ -21,6 +20,6 @@ CLASS net/minecraft/class_1079 net/minecraft/client/resource/metadata/AnimationR
 		ARG 1 frameIndex
 	METHOD method_4684 getDefaultFrameTime ()I
 	METHOD method_4685 shouldInterpolate ()Z
-	METHOD method_4686 getHeight (I)I
-	METHOD method_4687 getWidth (I)I
+	METHOD method_4686 getHeight ()I
+	METHOD method_4687 getWidth ()I
 	METHOD method_4688 getFrameIndexSet ()Ljava/util/Set;

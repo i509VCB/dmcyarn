@@ -2,9 +2,6 @@ CLASS net/minecraft/class_2487 net/minecraft/nbt/CompoundTag
 	FIELD field_11514 LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD field_11515 tags Ljava/util/Map;
 	FIELD field_11516 PATTERN Ljava/util/regex/Pattern;
-	FIELD field_21029 READER Lnet/minecraft/class_4614;
-	METHOD <init> (Ljava/util/Map;)V
-		ARG 1 tags
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
 	METHOD method_10537 getLong (Ljava/lang/String;)J
@@ -58,8 +55,12 @@ CLASS net/minecraft/class_2487 net/minecraft/nbt/CompoundTag
 		ARG 0 key
 	METHOD method_10558 getString (Ljava/lang/String;)Ljava/lang/String;
 		ARG 1 key
-	METHOD method_10559 createCrashReport (Ljava/lang/String;Lnet/minecraft/class_4614;Ljava/lang/ClassCastException;)Lnet/minecraft/class_128;
+	METHOD method_10559 createCrashReport (Ljava/lang/String;ILjava/lang/ClassCastException;)Lnet/minecraft/class_128;
 		ARG 1 key
+		ARG 2 type
+	METHOD method_10560 putUuid (Ljava/lang/String;Ljava/util/UUID;)V
+		ARG 1 key
+		ARG 2 uuid
 	METHOD method_10561 getIntArray (Ljava/lang/String;)[I
 		ARG 1 key
 	METHOD method_10562 getCompound (Ljava/lang/String;)Lnet/minecraft/class_2487;
@@ -96,14 +97,16 @@ CLASS net/minecraft/class_2487 net/minecraft/nbt/CompoundTag
 	METHOD method_10575 putShort (Ljava/lang/String;S)V
 		ARG 1 key
 		ARG 2 value
+	METHOD method_10576 containsUuid (Ljava/lang/String;)Z
+		ARG 1 key
 	METHOD method_10577 getBoolean (Ljava/lang/String;)Z
 		ARG 1 key
 	METHOD method_10578 escapeTagKey (Ljava/lang/String;)Ljava/lang/String;
 		ARG 0 key
 	METHOD method_10580 get (Ljava/lang/String;)Lnet/minecraft/class_2520;
 		ARG 1 key
-	METHOD method_10581 read (Lnet/minecraft/class_4614;Ljava/lang/String;Ljava/io/DataInput;ILnet/minecraft/class_2505;)Lnet/minecraft/class_2520;
-		ARG 0 reader
+	METHOD method_10581 createTag (BLjava/lang/String;Ljava/io/DataInput;ILnet/minecraft/class_2505;)Lnet/minecraft/class_2520;
+		ARG 0 type
 		ARG 1 key
 		ARG 2 input
 		ARG 3 depth
@@ -113,14 +116,5 @@ CLASS net/minecraft/class_2487 net/minecraft/nbt/CompoundTag
 		ARG 2 value
 	METHOD method_10583 getFloat (Ljava/lang/String;)F
 		ARG 1 key
-	METHOD method_25926 getUuid (Ljava/lang/String;)Ljava/util/UUID;
-		COMMENT Reads a {@link UUID} from its NBT representation in this {@code CompoundTag}.
-		ARG 1 key
-	METHOD method_25927 putUuid (Ljava/lang/String;Ljava/util/UUID;)V
-		COMMENT Writes a {@link UUID} to its NBT representation in this {@code CompoundTag}.
-		ARG 1 key
-		ARG 2 value
-	METHOD method_25928 containsUuid (Ljava/lang/String;)Z
-		COMMENT Returns {@code true} if this {@code CompoundTag} contains a valid UUID representation associated with the given key.
-		COMMENT A valid UUID is represented by an int array of length 4.
+	METHOD method_10584 getUuid (Ljava/lang/String;)Ljava/util/UUID;
 		ARG 1 key
