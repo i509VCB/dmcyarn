@@ -1,3 +1,0 @@
-CLASS net/minecraft/class_4649 net/minecraft/world/gen/foliage/PineFoliagePlacer
-	FIELD field_23755 height Lnet/minecraft/class_5428;
-	FIELD field_24935 CODEC Lcom/mojang/serialization/Codec;
